@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <style>
+       
+        .gallery {
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        .gallery td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Josefin Sans", sans-serif;
+        }
+
+        nav {
+            width: 100%;
+            height: 15vh;
+            background-image: url("images/header.jpg");
+            color: rgb(132, 187, 238);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-transform: uppercase;
+        }
+
+        nav .logo {
+            width: 25%;
+            text-align: center;
+        }
+
+        nav .menu {
+            width: 40%;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav .menu a {
+            width: 25%;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav .menu a:hover {
+            color: rgb(255, 0, 0);
+        }
+       
+        button:hover{
+            color: red;
+        }
+        button{
+           background-color: antiquewhite;
+           height: 35px;
+            width: 120px;
+            border-radius: 15px;
+            border-color:antiquewhite;
+            margin-top: 10PX;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <div class="logo"> <img src="images\LOGOO.png"> </div>
+        <div class="menu">
+            <a href="index.html" >Home</a>
+            <a href="gallery.html"style="color: red;">Rooms</a>
+            <a href="about.html" >about</a>
+            <a href="contact.html">contact</a>
+            <a href="login.html">Login</a>
+        </div>
+        </nav>
+    </header><br>
+    <h1>ROOMS</h1>
+    <table class="gallery">
+        
+        <tr>
+            <td ><img src="images/h5.jpg" alt="Image 4" >MRP:3000/-  <button >BOOK NOW</button></td>
+            <td><img src="images/h6.jpg" alt="Image 5">MRP:5000/-  <button>BOOK NOW</button></td>
+            <td><img src="images/h7.jpg" alt="Image 6">MRP:2000/-  <button>BOOK NOW</button></td>
+        </tr>
+        <tr>
+            <td><img src="images/h6.jpg" alt="Image 7">MRP:1230/- <button>BOOK NOW</button></td>
+            <td><img src="images/h8.jpg" alt="Image 8">MRP:1340/- <button>BOOK NOW</button></td>
+            <td><img src="images/h9.jpg" alt="Image 9">MRP:950/- <button>BOOK NOW</button></td>
+        </tr>
+        <tr>
+            <td><img src="imageS/h11.jpg" alt="Image 10">MRP:3300/- <button>BOOK NOW</button></td>
+            <td><img src="imageS/h12.jpg" alt="Image 11">MRP:1200/- <button>BOOK NOW</button></td>
+            <td><img src="images/h8.jpg" alt="Image 12">MRP:2100/- <button>BOOK NOW</button></td>
+        </tr>
+        <tr>
+            <td><img src="images/h14.jpg " alt="Image 13">MRP:1600/- <button>BOOK NOW</button></td>
+            <td><img src="images/h8.jpg" alt="Image 14">MRP:1800/- <button>BOOK NOW</button></td>
+            <td><img src="images/h16.jpg " alt="Image 15">MRP:1100/- <button>BOOK NOW</button></td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

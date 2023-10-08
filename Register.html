@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="book.css">
+      <style>
+        .container{
+          background-color: antiquewhite;
+        }
+      </style>
+
+    </head>
+
+<body>
+    <nav>
+        <div class="logo"> <img src="images\LOGOO.png"> </div>
+        <div class="menu">
+            <a href="index.html" >Home</a>
+            <a href="gallery.html">Rooms</a>
+            <a href="about.html" >about</a>
+            <a href="contact.html">contact</a>
+            <a href="login.html" style="color: red;">Login</a>
+        </div>
+    </nav>
+    <div class="container">
+        <h2>Registration</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter a password" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" placeholder="Confirm your password" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number" required>
+          </div>
+          
+          <button type="submit" onclick="alert('register successfully')">Register</button>
+        </form>
+      </div>
+</body>
+</html>
